@@ -1,3 +1,4 @@
 maxmindinc/geoipupdate
 mongo:latest
 klauspost/geoip-service:latest
+klauspost/geoip-service:latest
