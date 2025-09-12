@@ -44,6 +44,7 @@ jobs:
 
     - name: Free up disk space complete
       run: |
+        
         echo "Free up disk space complete"
         echo "=============================================================================="
         df -hT
@@ -57,7 +58,12 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
+
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+
+        # 设置环境变量以支持旧镜像格式
+        export DOCKER_CLI_EXPERIMENTAL=enabled
+        
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
