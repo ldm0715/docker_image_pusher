@@ -1,4 +1,3 @@
-doocs/md:latest
 maxmindinc/geoipupdate
 mongo:latest
 klauspost/geoip-service
