@@ -1,4 +1,3 @@
 maxmindinc/geoipupdate
 mongo:latest
-klauspost/geoip-service:latest
-klauspost/geoip-service:latest
+gcnanmu/geoip-service:1.0
