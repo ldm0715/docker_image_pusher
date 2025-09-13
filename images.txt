@@ -2,3 +2,4 @@ maxmindinc/geoipupdate
 mongo:latest
 gcnanmu/geoip-service:1.0
 cowrie/cowrie:latest
+jericx/syncclipboard-server:latest
