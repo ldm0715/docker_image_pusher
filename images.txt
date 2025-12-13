@@ -4,3 +4,4 @@ gcnanmu/geoip-service:1.0
 cowrie/cowrie:latest
 jericx/syncclipboard-server:latest
 elastic/elasticsearch:9.1.3
+imsyy/dailyhot-api:latest
